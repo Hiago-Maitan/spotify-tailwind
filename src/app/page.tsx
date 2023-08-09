@@ -9,7 +9,7 @@ export default function Home() {
     <div className="h-screen flex flex-col">
       <div className="flex flex-1">
         <Sidebar/>
-        <main className="flex-1 p-6">
+        <main className="mt-5 flex-1 p-6 bg-zinc-900 rounded-md">
           <div className='flex items-center gap-4'>
 
             <button className='bg-black/40 rounded-full p-1'>
@@ -21,7 +21,7 @@ export default function Home() {
             </button>
           </div>
 
-          <h1 className='font-semibold mt-10 text-3xl'>Good Afternoon</h1>
+          <h1 className='font-semibold mt-10 text-3xl'>Boa tarde</h1>
 
           <div className='grid grid-cols-3 mt-4 gap-6'>
 
@@ -80,7 +80,7 @@ export default function Home() {
             </a>
           </div>
 
-          <h2 className='font-semibold mt-10 text-2xl'>Made for Hiago Maitan</h2>
+          <h2 className='font-semibold mt-10 text-2xl'>Feito para Maitann</h2>
 
           <div className='grid grid-cols-5 gap-4 mt-4'>
             <a href='' className='bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10'>

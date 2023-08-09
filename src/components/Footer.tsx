@@ -15,7 +15,7 @@ import Image from 'next/image'
 
 export default function Footer() {
   return (
-    <footer className="bg-zinc-800 border-t border-zinc-700 px-6 py-4 flex items-center justify-between">
+    <footer className="bg-black px-6 py-4 flex items-center justify-between">
       <div className='flex items-center gap-3'>
         <Image className='rounded' src="/album.jpeg" width={56} height={56} alt='Capa do album' />
 
@@ -66,7 +66,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        
+
         <Maximize2 className="text-zinc-200 cursor-pointer" size={20} />
       </div>
     </footer>
