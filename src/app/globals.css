@@ -2,3 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Styles Scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+    heigth: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(114, 109, 111, 1);
+}
